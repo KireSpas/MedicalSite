@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*GENERAL */ 
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.padding {
+    padding: 0% 15%;
+}
+
+.row  {
+    width: 100%;
+}
+
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+}
+        
+
+/*BACKGROUND IMAGE FOR FIRST SECTION*/
+.surgeon_img {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Assets/images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*HEADER STARTS HERE*/ 
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 66px;
+    background-color: whitesmoke;
+    mix-blend-mode: hard-light;
+    position: fixed;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.header_left {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.header_left:hover {
+    cursor: pointer;
+}
+
+.color-blue {
+    color:#6bc2f1
+} 
+
+.ul_header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul_header > li > a {
+    text-decoration: none;
+    padding:0 10px;
+   
+}
+
+header > nav > ul a:active,
+header > nav > ul a:visited {
+    color: #252525;
+}
+
+.header_btn {
+    width: 140px;
+    height: 46px;
+    background-color: #6bc2f1;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header_btn:hover {
+    background: rgb(87, 87, 150);
+}
+
+
+/*HEADER ENDS HERE*/
+
+/*SURGEON SECTION STARTS HERE*/
+
+
+
+.surgeon {
+    width: 100%;
+    height: calc(100vh - 66px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    color: #ffffff;
+}
+
+.div_surgeon {
+    margin-top: 150px;
+}
+
+
+.surgeon h1 {
+    font-size: 70px;
+}
+
+.second_h_surgeon {
+    font-weight: bold;
+}
+
+.surgeon p {
+    border: 1px;
+    height: 80px;
+    width: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.surgeon_btn {
+    width: 200px;
+    height: 46px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: black;
+}
+
+.surgeon_btn:hover {
+    background: lightblue;
+}
+
+/*SURGEON SECTION ENDS HERE*/
+
+
+/*WHITE SECTION STARTS HERE*/
+
+
+.white_section {
+    padding: 0% 25%;
+    width: 100%;
+    height: 500px;
+    text-align: left;
+    
+}
+
+.white_section h5 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+.white_section h3 {
+    padding: 20px 0%;
+    
+}
+
+.white_section p {
+    height: 200px;
+    width: 350px;
+}
+
+.white_btn {
+    width: 200px;
+    height: 46px;
+    background-color:#6bc2f1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: black;
+}
+
+.white_btn:hover {
+    background: rgb(87, 87, 150);
+}
+
+.white_section img {
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+/*do tuka sum*/
+.white_symbols {
+    margin: 5% 1%;
+    font-size: 20px;
+    color: blue;
+    transition: all 0.1s ease-in;
+}
+
+.white_symbols:hover {
+    transform: scale(1.6);
+    color: darkblue;
+    cursor: pointer;
+}
+
+
+/*WHITE SECTION ENDS HERE*/
+
+
+/*RECTANGLE SECTION STARTS HERE*/
+
+.rectangle_section {
+    width: 100%;
+    height: 100%;
+    background-color: #6bc2f1;
+}
+
+.rectangle_section  img {
+   
+    width: 100%;
+    height: 100%;
+    
+}
+
+.rectangle_section h5 { 
+    text-transform: uppercase;
+    color: blue;
+}
+
+.rectangle_section h3 {
+    color: #ffffff;
+    padding: 20px 0%;
+    
+}
+
+.rectangle_section p {
+    color: #ffffff;
+    height: 200px;
+    width: 350px;
+}
+
+
+/*RECTANGLE SECTION ENDS HERE*/
+
+/*PHOTO SECTION STARTS HERE*/
+
+.photo_section {
+    padding: 0% 40%;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    
+}
+
+.photo_section > img {
+    height: 100%;
+    width: 100%;
+    margin:20% 10%;
+    transition: all 0.3s ease-in-out;
+}
+
+.photo_section > img:hover {
+    transform: scale(1.1);
+}
+
+
+/*PHOTO SECTION ENDS HERE*/
+
+/* FOOTER STARTS HERE*/
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background: #072135;
+    text-align: center;
+}
+
+.footer > div {
+    margin: 3%;
+}
+
+.footer h3 {
+    color: rgb(146, 82, 82);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer p {
+    color: #ffffff;
+    width: 650px;
+    margin: 2%;
+}
+/* FOOTER ENDS HERE*/
+
